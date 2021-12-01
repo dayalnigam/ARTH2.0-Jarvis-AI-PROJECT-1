@@ -1,9 +1,9 @@
 # Jarvis-AI-REDHAT-LINUX-CODE
 This code can be used to create an Assistant using Python in linux system
 
-#Project Under LINUX WORLD INFORMATICS (ARTH2.0)
+# Project Under LINUX WORLD INFORMATICS (ARTH2.0)
 
-#Team members are:-
+# Team members are:-
 
 1.DAYAL NIGAM
 
@@ -11,13 +11,13 @@ This code can be used to create an Assistant using Python in linux system
 
 3.Pradnya Kokil
 
-#Technical Volunteer
+# Technical Volunteer
 
 1.Harvinder Singh
 
 2.Niharika
 
-#LIBRARIES USED:-
+# LIBRARIES USED:-
 
 import speech_recognition as sr 
 
@@ -39,7 +39,7 @@ from smtplib import SMTPException
 
 import time
 
-#Features:
+# Features:
 1.SEND EMAIL WHEN ASKED
 
 2.SOME REDHAT LINUX BASED FUN COMMANDS
@@ -50,4 +50,4 @@ import time
 
 4.NEWS READ WHEN ASKED
 
-#WE WERE DOING FURTHER UPDATION............................................
+# WE WERE DOING FURTHER UPDATION............................................
