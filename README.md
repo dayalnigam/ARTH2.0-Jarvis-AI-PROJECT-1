@@ -51,3 +51,5 @@ import time
 4.NEWS READ WHEN ASKED
 
 # WE WERE DOING FURTHER UPDATION............................................
+![image](https://user-images.githubusercontent.com/57106200/144207743-5ba42ab1-16ec-4754-925e-68e34060599c.png)
+
