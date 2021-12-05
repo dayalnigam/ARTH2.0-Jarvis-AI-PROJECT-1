@@ -43,10 +43,10 @@ while True:
              try:
                 server = smtplib.SMTP('smtp.gmail.com', 587)
                 server.starttls()
-                server.login('hulasnigam@gmail.com', 'dayalbaghradhasoami')
+                server.login('mailid', 'password')
                 email = EmailMessage()
-                email['From'] = 'hulasnigam@gmail.com'
-                email['To'] = "hulasnigam@gmail.com"
+                email['From'] = 'sender_mailid'
+                email['To'] = "receivermailid"
                 email['Subject'] = "Hi"
                 email.set_content("Hi")
                 server.send_message(email)
@@ -60,7 +60,7 @@ while True:
              query = {
             "source":"bbc-news",
             "sortBy":"top",
-            "apiKey":"8e19b13f4d674732b6fa9c425b2fdc45",
+            "apiKey":"apikey_of_news_org",
                 }
              res = requests.get(" https://newsapi.org/v1/articles",params=query)
              news_dict = res.json()
